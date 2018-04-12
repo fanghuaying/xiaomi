@@ -171,3 +171,8 @@
     background: #eee;
     color: #757575;
 }
+/* 轮播图 */
+.home-hero{
+    overflow: hidden;
+    position: relative;
+}
