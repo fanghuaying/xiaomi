@@ -1,0 +1,173 @@
+
+/* 顶部导航 */
+.topbar-nav,.topbar-cat,.topbar-info{
+    display: inline-block;
+}
+.head{
+    height: 40px;
+    line-height: 40px;
+    background: #333;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.head a{
+    color: #b0b0b0;
+}
+.head a:hover{
+    color: #fff;
+    text-decoration: none;
+} 
+.topbar-nav,.topbar-cart .sep{
+    margin: 0 5px;
+    color: #424242;
+}
+.topbar-cart,.topbar-info{
+    position: relative;
+    float: right;
+}
+.head .topbar-info{
+    width: 120px;
+    margin-left: 15px;
+}
+.topbar-info .cart-mini{
+    text-align: center;
+    display: block;
+    background: #424242;
+    color: #b0b0b0;
+}
+.topbar-info a:hover{
+    background: #fff;
+    color: #ff6700;
+}
+.topbar-info .cart-font{
+    margin-right: 10px;
+}
+
+/* 头部导航栏 */
+.header-logo,.header-nav,.header-search{
+    display: inline-block;
+}
+.header-logo .logo{
+    position: relative;
+    display: block;
+    width: 55px;
+    height: 55px;
+    background-color: #ff6700;
+}
+.logo::before
+{
+    content: "";
+    background: url("../img/mi-logo.png") no-repeat 50% 50%;
+
+}
+.logo::before,.logo::after{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    width: 55px;
+    height: 55px;
+    content: '';
+}
+.nav-list{
+    position: relative;
+    float: left;
+    width: 820px;
+    height: 88px;
+    padding: 12px 0 0 30px;
+    list-style: none;
+    font-size: 16px;
+}
+.nav-item{
+    float: left;
+}
+.nav-item .link{
+    display:block;
+    padding: 26px 10px 38px;
+    color: #333;
+}
+.top-header .nav-category{
+    position: relative;
+    float: left;
+    width: 127px;
+    padding-right: 15px;
+}
+.top-header .nav-category .link-category{
+    display: block;
+    padding: 26px 0 38px;
+    color: #333;
+    visibility: hidden;
+}
+.site-category{
+    display: inline-block;
+    position: absolute;
+    top: 102px;
+    left: -88px;
+    width: 234px;
+    height: 460px;
+    font-size: 14px;
+}
+.site-category-list{
+    height: 420px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    list-style: none;
+}
+.site-category-list .title{
+    display: block;
+    position: relative;
+    height: 42px;
+    line-height:42px; 
+    color: #fff;
+}
+.site-category-list .title i{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.top-header .header-search{
+    float: right;
+    width: 196px;
+    margin-top: 25px;
+}
+.top-header .header-search .search-form{
+    position: relative;
+    width: 196px;
+    height: 50px;
+}
+.top-header .site-text{
+    position: absolute;
+    top: 0;
+    right: 51px;
+    height: 48px;
+    padding: 0 10px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+}
+.top-header .search-btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 51px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #e0e0e0;
+    background: #ccc;
+    text-align: center;
+}
+.header-search .search-hot-words{
+    position: absolute;
+    top: 5px;
+    right: 62px;
+
+}
+.header-search .search-hot-words a{
+    display: inline-block;
+    margin-left: 5px;
+    padding: 0 2px;
+    font-size: 12px;
+    background: #eee;
+    color: #757575;
+}
