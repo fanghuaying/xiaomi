@@ -305,3 +305,40 @@
     font-size: 16px;
     line-height: 16px;
 }
+.xm-flashPurchase .box-bd{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom:40px; 
+}
+.xm-flashPurchase .xm-carousel-list{
+    width: 100%;
+}
+.xm-carousel-list li{
+    float: left;
+    width: 234px;
+    margin-right: 14px;
+}
+.xm-flashPurchase .goods-list{
+    height: 340px;
+    overflow: hidden;
+}
+.xm-flashPurchase .xm-flashPurchase-countdown{
+    float: left;
+    width: 234px;
+    margin: 0 14px 0 0;
+    padding: 0;
+}
+.xm-flashPurchase .xm-flashPurchase-countdown li{
+    background: #f1eded;
+    text-align: center;
+}
+.xm-flashPurchase .rainbow-list .rainbow-item-4{
+    border-top-color: #e53935;
+}
+.xm-flashPurchase .goods-list li{
+    height: 300px;
+    margin-top: 39px;
+    border-top-width: 1px;
+    border-top-style: solid;
+}
